@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Commander.Models
+namespace CommanderGQL.Models
 {
     public class Platform
     {
