@@ -3,9 +3,9 @@ using CommanderGQL.Models;
 
 namespace CommanderGQL.Data
 {
-    public class ApDbContext : DbContext
+    public class AppDbContext : DbContext
     {
-        public ApDbContext(DbContextOptions<ApDbContext> options) : base(options)
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
 
